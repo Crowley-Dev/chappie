@@ -8,7 +8,7 @@ intents.members = True
 intents.message_content = True
 
 bot = commands.Bot(
-  intents=intents
+  intents=intents,
   command_prefix="!",
   description="Um simples bot geo localizador de IPV4.",
 )

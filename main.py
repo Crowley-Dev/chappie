@@ -39,6 +39,18 @@ async def on_ready():
 
 @bot.command()
 async def geoip(ctx, ip):
+  msg=""
+  if ip is None:
+    msg = discord.Embed(
+      title="Comando inválido.",
+      color=discord.Color.from_rgb(220, 20, 60)
+    );
+
+    msg.add_field(name="use:", value="!geoip <ip>")
+    msg.add_field(name="exemplo:", value="!geoip 24.48.0.1")
+
+    return await ctx.reply(embed=msg, view=Github());
+
   data = requests.request(
     method = "GET",
     url = f"http://ip-api.com/json/{ip}?fields=8966904",

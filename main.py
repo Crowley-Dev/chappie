@@ -41,7 +41,6 @@ async def on_ready():
 
 @bot.command()
 async def geoip(ctx, ip):
-  msg=""
   if ip is None:
     msg = discord.Embed(
       title="Comando inválido.",

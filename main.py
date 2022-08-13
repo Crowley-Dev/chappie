@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import discord
 from discord.ext import commands
 import requests
@@ -44,9 +46,7 @@ async def geoip(ctx, ip):
     msg = discord.Embed(
       title="Comando inválido.",
       color=discord.Color.from_rgb(220, 20, 60)
-    );
-
-    msg.add_field(name="use:", value="!geoip <ip>")
+    );msg.add_field(name="use:", value="!geoip <ip>")
     msg.add_field(name="exemplo:", value="!geoip 24.48.0.1")
 
     return await ctx.reply(embed=msg, view=Github());

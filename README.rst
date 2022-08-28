@@ -13,9 +13,7 @@ instalação
     $ git clone https://github.com/Crowley-Dev/botdc-geoip
     $ cd botdc-geoip
 
-Feito isso, basta instalar as dependências necessárias e configurar o `TOKEN`_.
-
-.. _TOKEN: link
+Feito isso, basta instalar as dependências necessárias e configurar o TOKEN.
 
 
 dependências
@@ -27,7 +25,7 @@ dependências
 
 .. _requests: https://github.com/psf/requests
 .. _discord.py: https://github.com/Rapptz/discord.py
-.. _discord-ext-menus: git+https://github.com/Rapptz/discord-ext-menus
+.. _discord-ext-menus: https://github.com/Rapptz/discord-ext-menus
 
 
 **Instale automaticamente executando:**
@@ -66,7 +64,7 @@ Links
 - `Servidor oficial do Python <https://discord.gg/python>`_
 - `Documentação discord.py <https://discordpy.readthedocs.io/en/latest/index.html>`_ 
 
-- `Discord API <https://discord.gg/discord-api>`_
+- `Discord API <https://discord.gg/discord-api>`_
 - `Servidor oficial do discord <https://discord.gg/r3sSKJJ>`_ 
 - `Servidor oficial de desenvolvedores <https://discord.gg/discord-developers>`_
 

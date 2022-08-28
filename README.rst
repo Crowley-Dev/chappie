@@ -46,7 +46,7 @@ configuração
     :alt: Print de exemplo
 
 
-inicar
+iniciar
 ------
 
 **Para rodar o BOT, use:**

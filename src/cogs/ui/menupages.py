@@ -34,8 +34,7 @@ class MyMenuPages(ui.View, menus.MenuPages):
 
 
   async def interaction_check(self, interaction):
-    return interaction.user.id == self.ctx.author.id \
-    or interaction.user.id == 728475486908317727
+    return interaction.user.id == self.ctx.author.id
 
 
   @ui.button(label="Anterior ◀️", style=discord.ButtonStyle.grey)

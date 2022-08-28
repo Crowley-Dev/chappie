@@ -38,11 +38,11 @@ dependências
 configuração
 ------------
 
-- Cole o TOKEN do seu bot na variável *`TOKEN <link>`__*.
-- Cole o ID(opcional, o único necessário é o TOKEN) do seu servidor na variável *`GUILD_ID <>`__*
+- Cole o TOKEN do seu bot na variável `TOKEN <https://github.com/Crowley-Dev/botdc-geoip/blob/main/src/main.py#L7>`_.
+- Cole o ID(opcional, o único necessário é o TOKEN) do seu servidor na variável `GUILD_ID <https://github.com/Crowley-Dev/botdc-geoip/blob/main/src/main.py#L9>`_
 
 .. image:: https://raw.githubusercontent.com/Crowley-Dev/botdc-geoip/main/.img/img_example.jpg
-    :target: link
+    :target: https://github.com/Crowley-Dev/botdc-geoip/blob/main/src/main.py#L7
     :alt: Print de exemplo
 
 

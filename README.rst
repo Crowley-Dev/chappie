@@ -43,7 +43,7 @@ configuração
 - Cole o TOKEN do seu bot na variável *`TOKEN <link>`__*.
 - Cole o ID(opcional, o único necessário é o TOKEN) do seu servidor na variável *`GUILD_ID <>`__*
 
-.. image:: link
+.. image:: https://raw.githubusercontent.com/Crowley-Dev/botdc-geoip/main/.img/img_example.jpg
     :target: link
     :alt: Print de exemplo
 

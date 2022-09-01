@@ -5,7 +5,7 @@ from discord.ext import commands
 
 
 TOKEN="SEU TOKEN AQUI"
-PREFIX=["c!", "d!"]
+PREFIX="d!"
 GUILD_ID=0
 
 
